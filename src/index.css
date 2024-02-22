@@ -1,0 +1,11 @@
+.btn-black {
+    background-color: #000;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-right:2em;
+    color: #FFF;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px 3px  #7c7a7a ;
+    border: none;
+    box-sizing: border-box;
+}
