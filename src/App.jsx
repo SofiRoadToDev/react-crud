@@ -3,7 +3,7 @@ import './App.css'
 import Lista from './components/Lista'
 import useFetch from './hooks/useFetch'
 import ModalForm from './components/ModalForm'
-
+import logo from './assets/escudo.png'
 function App() {
 
 
@@ -40,6 +40,11 @@ function App() {
 
     <>
       <header className = 'bg-dark container-fluid text-white text-center py-3'>
+        <div className="navrbar-brand">
+          <img  style={{ width:"110px",height:"130px"}} src={logo} alt="escudo" />
+          <h4>EET 3107</h4>
+          <p>Juana Azurduy de Padilla</p>
+        </div>
         <div className = 'w-100 d-flex justify-content-end'>
           <input className = "form-control-sm" id="search" type="search" placeholder='filter by username' onChange={handleChange} />
         </div>

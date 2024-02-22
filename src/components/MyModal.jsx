@@ -3,7 +3,7 @@ import React from 'react'
 const MyModal = ({modal,showModal,setShowModal}) => {
 
   return (
-    <div className={showModal ? 'modal d-block': 'modal' }>
+    <div className={showModal ? 'modal d-block': 'modal' } >
       <div className="modal-dialog">
         <div className="modal-content">
             <div className="modal-header">
