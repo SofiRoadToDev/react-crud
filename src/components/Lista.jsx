@@ -16,7 +16,7 @@ function Lista ({lista}) {
   ));
   
   return (
-    <table className='table'>
+    <table className='table shadow'>
       <thead className='table-dark'>
         <tr>
           <th>Name</th>

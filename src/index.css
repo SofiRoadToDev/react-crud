@@ -9,3 +9,7 @@
     border: none;
     box-sizing: border-box;
 }
+
+.shadow{
+    box-shadow: 2px 2px 3px  #7c7a7a ;
+}
